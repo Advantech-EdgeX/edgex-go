@@ -1,2 +1,1 @@
-# edgex-go
-edgex-go
+##### The repository contains patches provided by Advantech
