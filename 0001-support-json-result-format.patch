@@ -1,0 +1,9 @@
+37a38
+> 	Raw 	 json.RawMessage `bson:"raw" json:"raw"`  // Device sensor raw data value
+50a52
+> 		Raw 	 json.RawMessage `json:"raw"` // Device sensor raw data value
+67a70,73
+> 		test.Raw = []byte(r.Value)
+> 		if json.Valid(test.Raw) == false {
+> 			test.Raw = []byte("{}")
+> 		}
